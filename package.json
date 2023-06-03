@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
@@ -35,6 +37,7 @@
     "@svgr/webpack": "^8.0.1",
     "@types/react-dom": "^18.2.4",
     "@types/react-redux": "^7.1.25",
-    "@types/redux": "^3.6.0"
+    "@types/redux": "^3.6.0",
+    "cypress": "^12.13.0"
   }
 }
