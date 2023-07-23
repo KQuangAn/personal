@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import NavItem from "./NavItem";
 import Eyes from "../eyes/Eyes";
-import React from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { HiChevronRight } from "react-icons/hi";
@@ -55,7 +54,6 @@ const DropdownMenuDemo = () => {
   );
 };
 
-import * as React from "react";
 import * as Toast from "@radix-ui/react-toast";
 
 const ToastDemo = () => {
@@ -126,8 +124,6 @@ function prettyDate(date) {
     timeStyle: "short",
   }).format(date);
 }
-
-export default ToastDemo;
 
 const Navbar = () => {
   const router = useRouter();
