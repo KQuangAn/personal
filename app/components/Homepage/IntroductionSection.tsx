@@ -2,7 +2,7 @@ import Icon from "../Icon/Icon";
 
 const Introduction = () => {
   return (
-    <section className="bg-white-100 py-24">
+    <section className="bg-white-100 mt-20">
       <div className="container mx-auto px-4">
         <div
           className="flex
@@ -18,6 +18,19 @@ const Introduction = () => {
           >
             Hi my name is
           </h1>
+
+          <div
+            className="
+                    flex
+                    flex-col
+                    sm:flex-row
+                    text-center
+                    items-center
+                    justify-center"
+          >
+            <h5 className="text-2xl p-2">01.About me </h5>
+            <p>Born in May 30th , 2002. </p>
+          </div>
 
           <div
             className="
